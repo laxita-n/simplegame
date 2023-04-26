@@ -1,0 +1,71 @@
+html{
+  color: beige;
+}
+.hide {
+    display: none;
+  }
+  .car{
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-image: url(car.png);
+    background-size: cover;
+  }
+body{
+  background: url(carbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-image: url(police.png);
+    background-size: cover;
+  }
+  .gameArea {
+    background-color: rgb(61, 61, 61);
+    width: 400px;
+    height:100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 36.55%;
+  }
+  .line {
+    position: absolute;
+    height: 70px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+  }
+  .score {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-family: fantasy;
+  }
+  .startScreen {
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    border: 3px solid red;
+    margin: auto;
+    height: 80px;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+
+  .startScreen p{
+    color: blue;
+    font-size: 20px;
+    
+    font-weight: bolder;
+  }
